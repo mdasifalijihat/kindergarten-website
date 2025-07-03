@@ -6,6 +6,8 @@ import Students from "../components/pages/page/Students";
 import Teachers from "../components/pages/page/Teachers";
 import Results from "../components/pages/page/Results";
 import Fees from "../components/pages/page/Fee";
+import Notices from "../components/pages/page/Notifications";
+import Dashboard from "../components/pages/admin/Dashboard"
 
 export const router = createBrowserRouter([
   {
@@ -19,6 +21,8 @@ export const router = createBrowserRouter([
         {path:'/teachers', Component:Teachers},
         {path:'/results', Component:Results},
         {path:'/fees', Component:Fees},
+        {path:'/notifications', Component:Notices},
+        {path:'/admin/dashboard', element:<Dashboard/>},
     ]
   },
 ]);
