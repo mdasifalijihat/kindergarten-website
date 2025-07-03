@@ -1,12 +1,73 @@
-# React + Vite
+🏠 1. Home Page
+Sections:
+✅ Navbar (Responsive)
+✅ Banner (Swiper Slider)
+✅ About School Section
+✅ Class Summary (Class count, student count per class)
+✅ Featured Students (Best handwriting, Top skills)
+✅ Featured Teachers
+✅ Notice Board / Notification
+✅ Admission Button
+✅ Footer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+👩‍🎓 2. Student Page
+Sections:
+✅ Class Wise Student Count
+✅ Top Students (First Boy, Second Boy)
+✅ Handwriting / Skill Cards
+✅ Student Search
 
-Currently, two official plugins are available:
+👨‍🏫 3. Teacher Page
+Sections:
+✅ Teacher List
+✅ Join Date, Qualification, CV Download
+✅ Subjects / Classes they teach
+✅ Profile Card
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+📊 4. Result Page
+Sections:
+✅ Class Dropdown Selector
+✅ Result Table (Student name, photo, marks)
+✅ Exam Type Filter (Monthly, Half-yearly, Annual)
+✅ PDF Download Button
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+💰 5. Fees Page
+Sections:
+✅ Class-wise Fee Breakdown
+✅ Admission Fee, Exam Fee, Session Fee
+✅ Payment Instructions (future integration)
+
+
+🧠 6. Skills Page
+Sections:
+✅ Student-wise Skills Listing (cards)
+✅ Class-wise Skill Analysis (optional graph)
+
+📚 7. Class Requirement Page
+Sections:
+✅ Syllabus per class
+✅ Required teacher info
+✅ Routine (optional)
+
+
+🔔 8. Notification Page
+Sections:
+✅ Notice Cards with title, description, date
+✅ Downloadable attachments
+
+
+⚙️ 9. Admin Panel (Protected Route)
+Dashboard View:
+✅ Total Students, Teachers
+✅ Latest Results Updated
+✅ Navigation to add/edit:
+Student Info
+Teacher Info
+Result
+Notifications
+Fees
+Class Requirements
+
+
