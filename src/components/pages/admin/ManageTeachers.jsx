@@ -52,4 +52,21 @@ export default function ManageTeachers() {
                   <td className="px-6 py-4 whitespace-nowrap">{teacher.id}</td>
                   <td className="px-6 py-4 whitespace-nowrap">{teacher.name}</td>
                   <td className="px-6 py-4 whitespace-nowrap">{teacher.subject}</td>
-                  <td className="px-6 py
+                  <td className="px-6 py-4 whitespace-nowrap">{teacher.contact}</td>
+                  <td className="px-6 py-4 whitespace-nowrap flex gap-2">
+                    <button className="text-blue-600 hover:text-blue-800">
+                      <FaEdit />
+                    </button>
+                    <button className="text-red-600 hover:text-red-800">
+                      <FaTrash />
+                    </button>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  );
+}

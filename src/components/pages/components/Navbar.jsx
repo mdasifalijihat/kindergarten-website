@@ -27,7 +27,7 @@ export default function Navbar() {
           <Link to="/results" className="hover:text-primary">Results</Link>
           <Link to="/fees" className="hover:text-primary">Fees</Link>
           <Link to="/notifications" className="hover:text-primary">Notices</Link>
-          <Link to="/admin/dashboard" className="btn btn-sm btn-primary">Admin</Link>
+          <Link to="/admin" className="btn btn-sm btn-primary">Admin</Link>
         </div>
       </div>
 
@@ -42,7 +42,7 @@ export default function Navbar() {
           <li><Link to="/results">Results</Link></li>
           <li><Link to="/fees">Fees</Link></li>
           <li><Link to="/notifications">Notices</Link></li>
-          <li><Link to="/admin/dashboard" className="btn btn-sm btn-primary mt-2">Admin</Link></li>
+          <li><Link to="/admin" className="btn btn-sm btn-primary mt-2">Admin</Link></li>
         </ul>
       </div>
     </div>
